@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="48sp"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/onePlayerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Player"
+        android:textSize="32sp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/twoPlayerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplayer"
+        android:textSize="32sp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/exitGameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit Game"
+        android:textSize="32sp"
+        android:padding="15dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
